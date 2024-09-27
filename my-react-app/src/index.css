@@ -1,0 +1,40 @@
+/*.button {
+    background-color: hsla(288, 42%, 49%, 0.789);
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 4px 1px hsla(0, 0%, 0%, 0.834);
+}
+
+.student {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2ch;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.student p {
+    margin: 0;
+}*/
+
+
+.voter {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    min-width: 40%;
+    max-width: 80%;
+    background-color: hsl(208, 96%, 61%);
+    border-radius: 5rem;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+
+.voter h2,
+.voter p{
+    color: white;
+}
