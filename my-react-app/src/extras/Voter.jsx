@@ -23,3 +23,12 @@ Voter.defaultPropTypes = {
 }
 
 export default Voter
+
+
+/* How the Voter Cards would work when in App.jsx 
+<Voter name = "Bradley" age = {17} party = {true} />
+<Voter name = "Danny" age = {28} party = {true} />
+<Voter name = "Joanne" age = {41} party = {false} />
+<Voter name = "Trixie" age = {92} party = {false} />
+<Voter name = "Charles" age = {55} party = {true} />
+<Voter name = "Brooke" age = {44} party = {false} /> */
