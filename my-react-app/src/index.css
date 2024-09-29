@@ -37,7 +37,7 @@
 .voter h2,
 .voter p{
     color: white;
-} */
+} 
 
 .welcome-message {
     font-size: 2.5ch;
@@ -58,4 +58,116 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     max-width: fit-content;
+}
+
+
+
+.list-category {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    font-size: 5ch;
+    background-color: hsla(113, 100%, 23%, 0.713);
+    padding: 20px;
+    max-width: 30vw;
+    margin: 0;
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: 3px 1px 5px  rgb(45, 45, 45);
+    color: rgb(211, 211, 211);
+
+}
+
+
+.list-items {
+
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    padding: 20px;
+    max-width: 30vw;
+    margin: 0;
+    text-align: center;
+    border-radius: 5rem;
+    list-style: none;
+    line-height: 2rem;
+    font-size: 3ch;
+    color: rgb(160, 160, 160);
+    
+
+
+}
+
+* {
+    background-color: rgb(55, 55, 55);
+}
+
+.list-items li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dividend {
+    margin: auto;
+    max-width: 40vh;
+}
+*/
+
+
+.classroom {
+    justify-content: center;
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+    
+}
+
+.classroom h2{
+    text-align: center;
+    font-size: 3.5ch;
+    padding: 20px;
+    background-color: hsl(237, 74%, 42%);
+    border-radius: 5rem;
+    box-shadow: 2px 2px 10px   rgba(211, 211, 211, 0.576);
+    color: white;
+    min-width: 320px;
+    justify-content: center;
+    
+}
+
+.classroom ul {
+    line-height: 3rem;
+    font-size: 3ch;
+    text-align: center;
+    list-style: none;
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(220, 61%, 58%);
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 2px 2px 10px 2px rgb(109, 172, 238);
+    min-width: 320px;
+    justify-content: center;
+
+}
+body {
+    background-color: hsla(0, 0%, 0%, 0.801);
+}
+
+.each-student li:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 674px) {
+
+    .classroom ul {
+        font-size: 1.9ch;
+    }
+
+    .classroom h2 {
+        font-size: 3ch;
+    }
+
 }

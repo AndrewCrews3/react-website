@@ -19,6 +19,9 @@ Voter.propTypes = {
 }
 
 Voter.defaultPropTypes = {
+    name: 'Guest',
+    age: 0,
+    party: false,
 
 }
 

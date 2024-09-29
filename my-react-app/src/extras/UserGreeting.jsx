@@ -24,3 +24,5 @@ UserGreeting.defaultProps = {
     username: '',
 }
 export default UserGreeting
+
+//        <UserGreeting isLoggedIn={false} username = "Brews"/>
