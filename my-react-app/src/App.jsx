@@ -14,7 +14,8 @@
 //import ColorPicker from "./ColorPicker";
 //import UpdateObjects from "./UpdateObjects";
 //import UpdateArray from "./UpdateArray";
-import ArrayObjects from "./ArrayObjects";
+//import ArrayObjects from "./ArrayObjects";
+import ToDoList from "./ToDoList";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
 
   return(
     <>
-    <UpdateArray/>    
+    <ToDoList/>    
         
     </>
         
