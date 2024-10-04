@@ -171,3 +171,99 @@ body {
     }
 
 } */
+
+body{
+    background-color: hsla(0, 0%, 11%, 0.916);
+}
+
+h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.to-do-list {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+    margin: 20px 20px;
+}
+
+
+.tasks li {
+    list-style: none;
+    padding: 1rem ;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: hsla(193, 100%, 50%, 0.916);
+    box-shadow: 0px 0px 2px 1px white;
+    display: flex;
+
+
+}
+
+ul li:nth-child(1) {
+    background-color: gold;
+}
+
+.add-button {
+    font-size: 1.5rem;
+    background-color: rgb(4, 255, 0);
+    color: white;
+    border-radius: 0.4rem;
+    margin-left: 20px;
+    border-style: none;
+}
+
+
+.add-button:hover {
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+.delete {
+    color: aliceblue;
+    background-color: rgba(250, 23, 23, 0.922);
+    border-style: none;
+    align-items: center;
+
+}
+
+.delete:hover {
+    transition: all ease 20ms;
+    box-shadow: 0px 0px 3px 1px white;
+}
+
+input[type='text'] {
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+.text {
+    flex: 1;
+    font-size: 1.5rem;
+    color: white;
+    -webkit-text-stroke: .8px #101010;
+
+}
+
+.delete, .move-button {
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.up:hover {
+    background-color: rgb(6, 255, 6);
+
+
+}
+
+.down:hover {
+    background-color: rgb(209, 255, 6);
+    
+
+}
