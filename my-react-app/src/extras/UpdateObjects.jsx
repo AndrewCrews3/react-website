@@ -27,8 +27,10 @@ function UpdateObjects() {
     <input type='text' value={car.model} onChange={handleModelChange}/>
 
     </>
-  )
+  ) 
 
 }
 
 export default UpdateObjects
+
+//test
