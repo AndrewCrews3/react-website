@@ -15,7 +15,9 @@
 //import UpdateObjects from "./UpdateObjects";
 //import UpdateArray from "./UpdateArray";
 //import ArrayObjects from "./ArrayObjects";
-import ToDoList from "./ToDoList";
+//import ToDoList from "./ToDoList";
+//import Effects from "./Effects";
+import DigitialClock from "./DigitialClock";
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
 
   return(
     <>
-    <ToDoList/>    
+    <DigitialClock/>    
         
     </>
         

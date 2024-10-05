@@ -172,7 +172,7 @@ body {
 
 } */
 
-body{
+/*body{
     background-color: hsla(0, 0%, 11%, 0.916);
 }
 
@@ -244,7 +244,7 @@ input[type='text'] {
 .text {
     flex: 1;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     -webkit-text-stroke: .8px #101010;
 
 }
@@ -265,5 +265,25 @@ input[type='text'] {
 .down:hover {
     background-color: rgb(209, 255, 6);
     
+
+}
+*/
+
+body {
+    background-image: url('assets/dragonball.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.clock{
+    text-align: center;
+
+}
+
+ .clock span {
+    background-color: blueviolet;
+    font-size: 4rem;
 
 }
