@@ -17,15 +17,17 @@
 //import ArrayObjects from "./ArrayObjects";
 //import ToDoList from "./ToDoList";
 //import Effects from "./Effects";
-import DigitialClock from "./DigitialClock";
-
+//import DigitialClock from "./DigitialClock";
+//import ComponentA from "./ComponentA";
+//import References from "./References";
+import StopWatch from "./StopWatch";
 
 function App() {
 
 
   return(
     <>
-    <DigitialClock/>    
+    <StopWatch/>    
         
     </>
         
